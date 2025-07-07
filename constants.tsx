@@ -1,7 +1,7 @@
 import React from 'react';
 import type { Project, Certification, NavLink } from './types';
-import img1 from "./assets/road_accident_work_flow.png" ;
-import img2 from "./assets/movie_workflow.png" ;
+import img1 from "./assets/roadaccidentworkflow.png" ;
+import img2 from "./assets/movieworkflow.png" ;
 
 export const NAV_LINKS: NavLink[] = [
     { name: "About", href: "#about" },
