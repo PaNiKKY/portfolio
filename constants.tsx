@@ -13,7 +13,7 @@ export const PERSONAL_INFO = {
     // title: "Data Engineer",
     shortBio: "",
     email: "panik.nadee@gmail.com",
-    linkedin: "www.linkedin.com/in/panik-nadee-514a75251",git add
+    linkedin: "www.linkedin.com/in/panik-nadee-514a75251",
     github: "https://github.com/PaNiKKY",
     about: "I'm a passionate and analytical professional transitioning into Data Engineering, driven by the critical importance of data quality and efficient data collection. Through self-study and hands-on ETL pipeline projects, I've gained expertise in Python, SQL, and Google Cloud Platform (GCP). I'm eager to contribute my skills to a dynamic data team, ensuring data integrity and availability."
 };
