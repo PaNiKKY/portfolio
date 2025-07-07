@@ -1,5 +1,7 @@
 import React from 'react';
 import type { Project, Certification, NavLink } from './types';
+import img1 from "./assets/road_accident_work_flow.png" ;
+import img2 from "./assets/movie_workflow.png" ;
 
 export const NAV_LINKS: NavLink[] = [
     { name: "About", href: "#about" },
@@ -31,7 +33,7 @@ export const PROJECTS: Project[] = [
         tags: ["Cloud storage", "Apache Spark", "Python", "Airflow", "BigQuery", "GCP"],
         githubUrl: "https://github.com/PaNiKKY/road_accident_dead",
         liveUrl: "https://lookerstudio.google.com/reporting/31d316e1-987d-4278-b8eb-af8df84da4bf",
-        imageUrl: "/assets/road_accident_work_flow.png",
+        imageUrl: img1
     },
     {
         title: "Movie Data Engineering Pipeline",
@@ -39,7 +41,7 @@ export const PROJECTS: Project[] = [
         tags: ["Cloud storage", "Dataproc", "Python", "Composer", "BigQuery", "GCP"],
         githubUrl: "https://github.com/PaNiKKY/movies-gcp",
         liveUrl: "https://lookerstudio.google.com/reporting/aff62ff9-c36c-4498-867f-e1cae3d5fc4c",
-        imageUrl: "/assets/movie_workflow.png",
+        imageUrl: img2
     }
 ];
 
