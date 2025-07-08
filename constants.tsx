@@ -15,15 +15,14 @@ export const PERSONAL_INFO = {
     // title: "Data Engineer",
     shortBio: "",
     email: "panik.nadee@gmail.com",
-    linkedin: "www.linkedin.com/in/panik-nadee-514a75251",
+    linkedin: "https://www.linkedin.com/in/panik-nadee-514a75251/",
     github: "https://github.com/PaNiKKY",
     about: "I'm a passionate and analytical professional transitioning into Data Engineering, driven by the critical importance of data quality and efficient data collection. Through self-study and hands-on ETL pipeline projects, I've gained expertise in Python, SQL, and Google Cloud Platform (GCP). I'm eager to contribute my skills to a dynamic data team, ensuring data integrity and availability."
 };
 
 export const SKILLS: string[] = [
-    "Python", "SQL", "Apache Spark", "Airflow", "Kafka",
-    "AWS (S3, Redshift, EMR, Glue)", "GCP (BigQuery, Dataflow)", "Azure (Data Factory)",
-    "Docker", "Kubernetes", "Terraform", "dbt", "Tableau"
+    "Python", "SQL","Pandas", "Apache Spark", "Airflow", 
+    "GCP (BigQuery, Dataproc)","Looker Studio"
 ];
 
 export const PROJECTS: Project[] = [
