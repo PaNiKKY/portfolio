@@ -2,6 +2,7 @@ import React from 'react';
 import type { Project, Certification, NavLink } from './types';
 import img1 from "./assets/roadaccidentworkflow.png" ;
 import img2 from "./assets/movieworkflow.png" ;
+import img3 from "./assets/theLookWorkflow.jpg" ;
 
 export const NAV_LINKS: NavLink[] = [
     { name: "About", href: "#about" },
@@ -31,7 +32,7 @@ export const PROJECTS: Project[] = [
         description: "Developed a pipeline to process and analyze road accident fatality data from Thailand's open data platform data.go.th. using Google Cloud Platform technologies.",
         tags: ["Cloud storage", "Apache Spark", "Python", "Airflow", "BigQuery", "GCP"],
         githubUrl: "https://github.com/PaNiKKY/road_accident_dead",
-        liveUrl: "https://lookerstudio.google.com/reporting/31d316e1-987d-4278-b8eb-af8df84da4bf",
+        liveUrl: "https://lookerstudio.google.com/s/lBW8P1EYqW8",
         imageUrl: img1
     },
     {
@@ -39,8 +40,16 @@ export const PROJECTS: Project[] = [
         description: "This comprehensive data engineering project implements a GCP-based pipeline, utilizing a modern ETL architecture to collect, process, and analyze movie popularity, vote counts, and gross revenue.",
         tags: ["Cloud storage", "Dataproc", "Python", "Composer", "BigQuery", "GCP"],
         githubUrl: "https://github.com/PaNiKKY/movies-gcp",
-        liveUrl: "https://lookerstudio.google.com/reporting/aff62ff9-c36c-4498-867f-e1cae3d5fc4c",
+        liveUrl: "https://lookerstudio.google.com/reporting/01aea6f7-a6a6-4b03-a8ed-1b6a618798d4",
         imageUrl: img2
+    },
+    {
+        title: "End-to-End Data Pipeline for TheLook eCommerce",
+        description: "Designed and implemented an end-to-end data pipeline for TheLook eCommerce platform, integrating data from multiple sources into a centralized data warehouse for enhanced analytics and reporting.",
+        tags: ["Cloud storage", "Dataproc", "Python", "Composer", "BigQuery", "GCP", "terraform", "Great Expectations"],
+        githubUrl: "https://github.com/PaNiKKY/theLook_ecom",
+        liveUrl: "https://lookerstudio.google.com/reporting/cfaf30cd-86a6-42ed-8643-d55914f186ed",
+        imageUrl: img3
     }
 ];
 
